@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia;
+    background-color: #4b4b3e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+   margin: 0;          
+   text-align: left;
+}
+
+h1 {
+    color: #9fc2ff;
+    font-size: 36px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 10px 0 20px;
+}
+
+h2 {
+    color: #87ceeb;
+}
+
+a {
+    color: #ff4750;
+    text-decoration: none;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #e8f43f;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+.moods {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.moods div {
+    text-align: center;
+}
+
+.moods img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.moods img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;           /* keeps proportion while filling box */
+  border-radius: 10px;         /* rounded corners */
+  border: 2px solid #ccc;
+}
